@@ -312,7 +312,7 @@ Before you get started with creating your PHP application, you need to register 
 
 ----
 
-The **environment** key contains the domain information to make API calls. The **token** key represents the OAuth info, including the clientID, clientSecret, grantToken, redirectURL, refreshToken or accessToken depending on the flow that you use. Refer to ##create an instance of OAuthToken## for more details.
+The **environment** key contains the domain information to make API calls. The **token** key represents the OAuth info, including the clientID, clientSecret, grantToken, redirectURL, refreshToken or accessToken depending on the flow that you use. Refer to **create an instance of OAuthToken** for more details.
 
 - Configure the API environment which decides the domain and the URL to make API calls.
 
