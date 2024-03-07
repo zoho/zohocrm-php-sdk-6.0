@@ -32,7 +32,7 @@ License
 * [Initialization](#initializing-the-application)
 * [Class Hierarchy](#class-hierarchy)
 * [Responses And Exceptions](#responses-and-exceptions)
-* [Multi-User support in the PHP SDK](#multi-user-support-in-the-php-sdk)
+* [Multi-User support in the PHP SDK](#multi-user-app)
 * [Sample Code](#sdk-sample-code)
 
 ## Overview
@@ -110,6 +110,18 @@ You can include the SDK to your project using:
     ```
 
   Through this line, you can access all the functionalities of the PHP SDK. The namespaces of the class to be used must be included within the "use" statement.
+
+---
+**Note** 
+
+> - If you are facing SSL related issues, make sure your SSL certificate is valid and configured properly. You can download the certificate bundle from here. To add the SSL certificate, locate the php.ini file in the PHP folder in your system,  and add these lines to your certificate:
+
+        - curl.cainfo="<filepath>/cacert.pem"
+        - openssl.cafile="<filepath>/cacert.pem"
+
+> - **serialize_precision**, **int** - The number of significant digits stored while serializing floating point numbers. From PHP 7.1.0, the default value for this key is -1. This means that the floating point value will not be rounded off during serializing and un-serializing the JSON. 
+Prior to PHP 7.1.0, the default value was 17, meaning the floating point number will be rounded off to 17 digits(or to the number specified in this key). You can change this value in **php.ini** file according to the number of decimal places you have set for currency or decimal fields in your CRM org.
+---
 
 ## Token Persistence
 
