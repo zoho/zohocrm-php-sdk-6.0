@@ -26,6 +26,20 @@ License
 
 ## Latest Version
 
+- [2.0.0](/versions/2.0.0/README.md)
+    - Added new ***moveAttachmentsTo*** field in LeadConverter class.
+    - Added new ***subCategory*** field in EmailRelatedRecords Status class.
+    - Added new ***availableCount*** field in Features Detail class.
+    - Changed ***tabTraversal*** field datatype in Layouts Sections.
+    - CustomViews ***favorite*** field datatype changed (bool to int).
+    - Support for the following new APIs.
+        - ***CustomViews***
+            - [Change Sort Order of Custom Views](https://www.zoho.com/crm/developer/docs/api/v6/sort-order-cv.html)
+        - ***Users***
+            - [Users Count](https://www.zoho.com/crm/developer/docs/api/v6/users-count.html)
+        - ***Features***
+            - [User Licences Count](https://www.zoho.com/crm/developer/docs/api/v6/get-user-licences.html)
+
 - [1.0.0](/versions/1.0.0/README.md)
 
     - PHP SDK upgraded to support v6 APIs.
@@ -43,10 +57,10 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-php-sdk-6.0/r
 
 ## Including the SDK in your project
 You can include the SDK to your project using Composer.
-For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/1.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
+For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/2.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
 
 ```sh
-composer require zohocrm/php-sdk-6.0:1.0.0
+composer require zohocrm/php-sdk-6.0:2.0.0
 ```
 With this, the PHP SDK will be installed and a package named vendor will be created in the workspace of your client app.
 
@@ -65,4 +79,4 @@ For example, if you generate the tokens for your Sandbox environment in the CN d
 
 ---
 
-For more details, kindly refer here. [here](/versions/1.0.0/README.md).
+For more details, kindly refer here. [here](/versions/2.0.0/README.md).
