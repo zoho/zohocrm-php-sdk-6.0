@@ -33,7 +33,7 @@ License
     - Added new ***type*** and ***ownerId*** param in EmailRelatedRecordsOperations class constructor.
     - Handled Record Field API Name and datatype.
     - Added new fields (createdTimeS, modifiedTimeS, createdByS, ownerS, and modifiedByS) in Record FileDetails class.
-    - Record ***multi_user_lookup*** type fields datatype changed(List<MinifiedUser> to List<Record>).
+    - Record ***multi_user_lookup*** type fields datatype changed(array of MinifiedUser to array of Record).
     
 
 - [2.0.0](/versions/2.0.0/README.md)
