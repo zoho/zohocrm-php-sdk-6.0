@@ -26,6 +26,16 @@ License
 
 ## Latest Version
 
+- [3.0.0](/versions/3.0.0/README.md)
+    - Blueprint Transition ***percentPartialSave*** field datatype changed(Integer to float).
+    - Blueprint Field ***convertMapping*** field datatype changed(ConvertMapping to array).
+    - Added new ***id*** and ***name*** param in GetDownloadAttachmentsDetailsParam class.
+    - Added new ***type*** and ***ownerId*** param in EmailRelatedRecordsOperations class constructor.
+    - Handled Record Field API Name and datatype.
+    - Added new fields (createdTimeS, modifiedTimeS, createdByS, ownerS, and modifiedByS) in Record FileDetails class.
+    - Record ***multi_user_lookup*** type fields datatype changed(List<MinifiedUser> to List<Record>).
+    
+
 - [2.0.0](/versions/2.0.0/README.md)
     - Added new ***moveAttachmentsTo*** field in LeadConverter class.
     - Added new ***subCategory*** field in EmailRelatedRecords Status class.
@@ -57,10 +67,10 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-php-sdk-6.0/r
 
 ## Including the SDK in your project
 You can include the SDK to your project using Composer.
-For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/2.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
+For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/3.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
 
 ```sh
-composer require zohocrm/php-sdk-6.0:2.0.0
+composer require zohocrm/php-sdk-6.0:3.0.0
 ```
 With this, the PHP SDK will be installed and a package named vendor will be created in the workspace of your client app.
 
@@ -79,4 +89,4 @@ For example, if you generate the tokens for your Sandbox environment in the CN d
 
 ---
 
-For more details, kindly refer here. [here](/versions/2.0.0/README.md).
+For more details, kindly refer here. [here](/versions/3.0.0/README.md).
