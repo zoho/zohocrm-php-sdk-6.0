@@ -264,6 +264,7 @@ class JSONConverter extends Converter
         {
             foreach ($moduleDetail as $keyName => $keyDetail)
 			{
+                if ($keyDetail == null) continue; 
 			    $name = $keyDetail[Constants::NAME];
 			    if ($keyDetail != null && array_key_exists(Constants::REQUIRED, $keyDetail) && $keyDetail[Constants::REQUIRED] == true)
 				{
@@ -276,6 +277,7 @@ class JSONConverter extends Converter
             }
 			foreach ($classDetail as $keyName => $keyDetail)
 			{
+                if ($keyDetail == null) continue; 
 			    $name = $keyDetail[Constants::NAME];
 			    if (array_key_exists(Constants::REQUIRED, $keyDetail) && $keyDetail[Constants::REQUIRED] == true)
 				{
