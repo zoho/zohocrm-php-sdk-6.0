@@ -25,6 +25,10 @@ License
 
 
 ## Latest Version
+
+- [5.0.0](/versions/5.0.0/README.md)
+  - Handled Record `rollup_summary` datatype.
+
 - [4.0.0](/versions/4.0.0/README.md)
     - Supported multiple field update operations in the FieldsOperations class.
 
@@ -69,10 +73,10 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-php-sdk-6.0/r
 
 ## Including the SDK in your project
 You can include the SDK to your project using Composer.
-For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/4.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
+For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/5.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
 
 ```sh
-composer require zohocrm/php-sdk-6.0:4.0.0
+composer require zohocrm/php-sdk-6.0:5.0.0
 ```
 With this, the PHP SDK will be installed and a package named vendor will be created in the workspace of your client app.
 
@@ -91,4 +95,4 @@ For example, if you generate the tokens for your Sandbox environment in the CN d
 
 ---
 
-For more details, kindly refer here. [here](/versions/4.0.0/README.md).
+For more details, kindly refer here. [here](/versions/5.0.0/README.md).
