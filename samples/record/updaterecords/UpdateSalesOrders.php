@@ -74,13 +74,13 @@ class UpdateSalesOrders
         $inventoryLineItem = new Record();
         $lineItemProduct = new LineItemProduct();
         $lineItemProduct->setId("343536456465352");
+        $inventoryLineItem->setId("34770619878002");
         $inventoryLineItem->addKeyValue("Description", "asd");
         $inventoryLineItem->addKeyValue("Discount", "5");
         $inventoryLineItem->addKeyValue("Quantity", 10.0);
         $inventoryLineItem->addKeyValue("List_Price", 100.0);
         $inventoryLineItem->addKeyValue("Product_Name", $lineItemProduct);
 //        $inventoryLineItem->addKeyValue("Product_Category_1", "hardware");
-        array_push($inventoryLineItemList, $inventoryLineItem);
         $productLineTaxes = array();
         $productLineTax = new LineTax();
         $productLineTax->setName("MyTax1134");
