@@ -30,7 +30,7 @@ class SDKException extends \Exception
         {
             $this->_message = $cause->getMessage();
         }
-        parent::__construct($message);
+        parent::__construct(is_null($message) ? "" : $message);
     }
 
     /**
