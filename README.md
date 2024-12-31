@@ -26,6 +26,10 @@ License
 
 ## Latest Version
 
+- [8.0.0](/versions/8.0.0/README.md)
+  - Handled FileStore save and update token method issue.
+  - Update CADataCenter Accounts URL.
+
 - [7.0.0](/versions/7.0.0/README.md)
   - Handled SDKException error message.
 
@@ -79,10 +83,10 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-php-sdk-6.0/r
 
 ## Including the SDK in your project
 You can include the SDK to your project using Composer.
-For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/7.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
+For installing the latest [version](https://github.com/zoho/zohocrm-php-sdk-6.0/releases/tag/8.0.0) of PHP SDK, navigate to the workspace of your client app and run the following command.
 
 ```sh
-composer require zohocrm/php-sdk-6.0:7.0.0
+composer require zohocrm/php-sdk-6.0:8.0.0
 ```
 With this, the PHP SDK will be installed and a package named vendor will be created in the workspace of your client app.
 
@@ -101,4 +105,4 @@ For example, if you generate the tokens for your Sandbox environment in the CN d
 
 ---
 
-For more details, kindly refer here. [here](/versions/7.0.0/README.md).
+For more details, kindly refer here. [here](/versions/8.0.0/README.md).
